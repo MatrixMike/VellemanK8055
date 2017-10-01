@@ -1,4 +1,7 @@
+{-# OPTIONS_GHC -fwarn-missing-signatures #-}
 module System.Hardware.VellemanK8055 where
+
+-- https://hackage.haskell.org/package/bindings-K8055
 
 import           Control.Concurrent
 import           Control.Monad      (void)
